@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
- * C program that prints exactly Programming is like building a multilingual puzzle
+/**
+ * main -  A program that prints a line with puts
+ * return: 0 (Success)
  */
 int main(void)
 {
