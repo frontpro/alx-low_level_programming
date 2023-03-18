@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
 * main - alphabet
 *Return: 0 SUCCES
