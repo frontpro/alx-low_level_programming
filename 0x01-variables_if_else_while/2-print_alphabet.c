@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdlib.h>
 /**
 * main - alphabet game
 * Return: 0
