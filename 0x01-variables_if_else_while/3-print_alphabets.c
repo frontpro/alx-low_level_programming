@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
 *main - alphabet
-*Return: 0 SUCCES
+*Return: 0
 */
 int main(void)
 {
-int i,j;
+int i, j;
+
 for (i = 97; i <= 122; i++)
 putchar(i);
 
