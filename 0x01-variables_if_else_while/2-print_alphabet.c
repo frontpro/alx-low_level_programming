@@ -1,16 +1,14 @@
-#include<stdio.h>
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
-* main - alphabet game
-* Return: 0
+* main - Function that will print the alphabet using putchar
+*Return: 0 SUCCES
 */
-int  main(void)
+int main(void)
 {
-	int i;
-
-	for (i = 97; i <= 122; i++)
-	putchar(i);
-	putchar("\n");
-
-	return (0);
+int i;
+for (i = 97; i <= 122; i++)
+putchar(i);
+putchar('\n');
+return (0);
 }
