@@ -11,8 +11,10 @@ int main(void)
 {
 	putchar(48 + x);
 	if (x != 9)
+	{
 	putchar(',');
 	putchar(' ');
+	}
 	++x;
 }
 	putchar('\n');
