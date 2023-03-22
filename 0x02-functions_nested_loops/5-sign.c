@@ -1,8 +1,10 @@
 #include "main.h"
 /**
-* print_sign - a function that prints the sign of a number.
-* @n: first para
-* Return: 0
+*print_sign - checks for n range
+* @n: number
+*
+*Description: This is a function to check n range
+* Return: 1 if n > 0 // 0 if n ==0 // -1 if n < 0
 */
 int print_sign(int n)
 {
