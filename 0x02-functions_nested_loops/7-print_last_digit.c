@@ -20,3 +20,4 @@ r = n % 10;
 _putchar(r + '0');
 return (r);
 }
+}
