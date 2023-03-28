@@ -10,6 +10,8 @@ void rev_string(char *s)
 	int i = 0;
 	int j;
 
+	while (s[i] != '\0')
+	i++;
 	for (j = 0; j < i; j++)
 	{
 		i--;
@@ -17,7 +19,5 @@ void rev_string(char *s)
 		s[j] = s[i];
 		s[i] = revArray;
 	}
-	while (s[i] != '\0')
-	i++;
+	
 }
-
