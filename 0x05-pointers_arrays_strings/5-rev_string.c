@@ -18,5 +18,5 @@ void rev_string(char *s)
 		revArray = s[j];
 		s[j] = s[i];
 		s[i] = revArray;
-	}	
+	}
 }
