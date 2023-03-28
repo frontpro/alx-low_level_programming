@@ -18,6 +18,6 @@ void rev_string(char *s)
 		s[i] = revArray;
 	}
 	while (s[i] != '\0')
-		i++;
+	i++;
 }
 
