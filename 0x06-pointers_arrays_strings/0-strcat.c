@@ -6,24 +6,13 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	int i = 0;
-	int j = 0;
-	char first_string[20];
-	char second_string[20];
-	dest = first_string;
-	src = second_string;
+int i = 0, len = 0;
 
-	while (first_string[i] != '\0')
-	{
-		++dest;
-		i++;
-	}
-	while (second_string[j] != '\0')
-	{
-		*dest = *src;
-		dest++;
-		src++;
-		j++;
-	}
-	_putchar(first_string);
+	while (dest[i++])
+		len++;
+
+	for (i = 0; src[i]; i++)
+		dest[len++] = src[i];
+
+	return (dest);
 }
