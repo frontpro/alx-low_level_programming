@@ -6,7 +6,6 @@
 *@n: byte
 *Return: value of s
 */
-
 char *_memset(char *s, char b, unsigned int n)
 {
     unsigned int counter;
