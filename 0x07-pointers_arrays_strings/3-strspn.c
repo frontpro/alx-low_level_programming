@@ -18,7 +18,6 @@ v = 0;
 for (x = 0; s[i] != '\0'; x++)
 {
 y = 0;
-
 for (n = 0; accept[n] != '\0'; n++)
 {
 if (accept[n] == s[i])
