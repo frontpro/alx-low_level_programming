@@ -26,5 +26,9 @@ value++;
 y = 1;
 }
 }
+if (y == 0)
+return (v);
+}
+return (v);
 }
 }
