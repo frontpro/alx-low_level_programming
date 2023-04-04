@@ -7,22 +7,16 @@
 */
 char *_strpbrk(char *s, char *accept)
 {
-unsigned int n = 0;
-int x;
+int i;
 
 while (*s)
 {
-for (x = 0; accept[0]; x++)
+for (i = 0; accept[i]; i++)
 {
-if (*s == accept[x])
-{
-n++;
-break;
+if (*s == accept[i])
+return (s);
 }
-else if (accept[x + 1] == '\0')
-return (n);
+s++;
 }
-x++;
-}
-return (n);
+return ('\0');
 }
