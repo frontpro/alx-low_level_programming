@@ -5,8 +5,8 @@
  * @argc: int
  * Return: 0
  */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
-printf("%d\n", argv[argc]);
+printf("%d\n", argc);
 return (0);
 }
