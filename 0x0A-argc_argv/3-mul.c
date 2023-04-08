@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 /**
  * main -   a program that multiplies two numbers.
  * @x: int
@@ -9,12 +9,12 @@ int main(int x, int y)
 {
 if (x == NULL || y == NULL)
 {
-printf("Error\n");
+printf("Error \n");
 }
 else
 {
 int z = x * y;
-printf("%d\n", z);
+printf("%d \n", z);
 }
 return (0);
 }
