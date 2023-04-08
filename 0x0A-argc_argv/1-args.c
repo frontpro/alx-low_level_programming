@@ -7,6 +7,6 @@
  */
 int main(int argc, char const *argv[])
 {
-printf("%d\n", argc);
+printf("%d\n", argv[argc]);
 return (0);
 }
