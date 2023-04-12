@@ -23,5 +23,5 @@ else
 for (i = 0; i < size; i++)
 x[i] = str[i];
 }
-return (x)
+return (x);
 }
