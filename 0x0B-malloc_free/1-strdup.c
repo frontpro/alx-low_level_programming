@@ -7,20 +7,20 @@
 char *_strdup(char *str)
 {
 int i;
-int s;
+int size;
 char *x;
 
 if (str  == NULL)
 return (NULL);
 
-for (s = 0; str[s] != '\0'; s++)
-x = malloc(s * sizeof(*str) + 1);
+for (size = 0; str[size] != '\0'; size++);
+x = malloc(size * sizeof(*str) + 1);
 
 if (x == 0)
 return (NULL);
 else
 {
-for (i = 0; i < s; i++)
+for (i = 0; i < size; i++)
 x[i] = str[i];
 }
 return (x)
