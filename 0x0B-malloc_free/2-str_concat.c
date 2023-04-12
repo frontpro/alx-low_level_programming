@@ -29,7 +29,7 @@ s2 = '\0';
 
 sizeA = _strlen(s1);
 sizeB = _strlen(s2);
-x = malloc((sizeA + sizeB) * sizeof(char) + 1);
+x = malloc((sizeA + sizeB) *sizeof(char) + 1);
 if (x == 0)
 return (0);
 
