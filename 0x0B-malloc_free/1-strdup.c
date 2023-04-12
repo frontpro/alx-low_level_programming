@@ -13,7 +13,7 @@ char *x;
 if (str  == NULL)
 return (NULL);
 
-for (size = 0; str[size] != '\0'; size++);
+for (size = 0; str[size] != '\0'; size++)
 x = malloc(size * sizeof(*str) + 1);
 
 if (x == 0)
