@@ -28,7 +28,7 @@ void *x;
 
 if (size == 0 || nmemb == 0)
 return (NULL);
-x = maloc(sizeof(int *nmemb));
+x = malloc(sizeof(int) * nmemb);
 if (x == 0)
 return (NULL);
 _memset(x, 0, sizeof(int) * nmemb);
