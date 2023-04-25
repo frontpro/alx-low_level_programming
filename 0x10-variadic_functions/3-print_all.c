@@ -69,7 +69,7 @@ separator = ", ";
 }
 y++;
 }
-x++
+x++;
 }
 printf("\n");
 va_end(ap);
