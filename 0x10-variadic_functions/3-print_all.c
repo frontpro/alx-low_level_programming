@@ -18,6 +18,15 @@ void format_int(char *separator, va_list ap)
 printf("%s%d", separator, va_arg(ap, int));
 }
 /**
+ * format_float - format_float
+ * @separator: string
+ * @ap: pointer
+*/
+void format_float(char *separator, va_list ap)
+{
+printf("%s%f", separator, va_arg(ap, double));
+}
+/**
  * format_string -  format_string
  * @separator: string
  * @ap: pointer
