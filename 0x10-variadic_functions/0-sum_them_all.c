@@ -11,6 +11,7 @@ int i = n;
 if (!n)
 return (0);
 va_start(ap, n);
+while (i--)
 sum += va_arg(ap, int);
 va_end(ap);
 return (sum);
